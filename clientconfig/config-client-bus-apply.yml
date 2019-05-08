@@ -3,6 +3,7 @@ spring:
     active: prd
 busi:
   ops: N
+  pwd: '${cipher}1d94c7de8c6b3eba27a08bece0ef62a14affc65f5b222c9b16588d4dff0f2274'
 ---
 spring:
   profiles: dev
