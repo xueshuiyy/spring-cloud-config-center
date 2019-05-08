@@ -1,0 +1,27 @@
+spring:
+  profiles:
+    active: prd
+busi:
+  ops: Y
+---
+spring:
+  profiles: dev
+  application:
+    name: client-dev
+server:
+  port: 8080
+myconfigtest: 
+  config-client-dev8080
+democonfigclient:
+  message: hello spring dev
+---
+spring:
+  profiles: prd
+  application:
+    name: client-prd
+server:
+  port: 8082
+myconfigtest: 
+  config-client-prd8081
+democonfigclient:
+  message: hello spring prd
