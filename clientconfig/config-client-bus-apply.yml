@@ -2,7 +2,7 @@ spring:
   profiles:
     active: prd
 busi:
-  ops: N
+  ops: Y
 ---
 spring:
   profiles: dev
