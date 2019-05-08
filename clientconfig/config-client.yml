@@ -8,6 +8,10 @@ spring:
     name: client-dev
 server:
   port: 8080
+myconfigtest: 
+  config-client-dev8080
+democonfigclient:
+  message: hello spring dev
 ---
 spring:
   profiles: prd
@@ -15,3 +19,7 @@ spring:
     name: client-prd
 server:
   port: 8081
+myconfigtest: 
+  config-client-prd8081
+democonfigclient:
+  message: hello spring prd
