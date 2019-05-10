@@ -2,7 +2,7 @@ spring:
   profiles:
     active: prd
 busi:
-  ops: Y
+  ops: N
   pwd: '{cipher}c92b52bdbfe07003d13c0e0132c7240f22885b4dbc6ee3c59ac432d125018f23'
 ---
 spring:
